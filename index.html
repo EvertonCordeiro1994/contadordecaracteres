@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Contador de Caracteres</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class='w-screen flex justify-center items-center h-screen'>
+    <div class="flex flex-col bg-white border border-slate-200 gap-2 rounded-xl p-2 text-sm w-11/12 shadow-2xl">
+      <h1 class="text-center text-slate-200 text-xl font-bold">Contador de caracteres</h1>
+      <div class='w-full'>
+        <textarea id='input' placeholder="Comece a digitar" class="bg-slate-100 text-slate-600 h-28 placeholder:text-slate-600 placeholder:opacity-50 border border-slate-200 resize-none outline-none rounded-lg p-4 duration-300 focus:border-slate-600 w-full"></textarea>
+      </div>
+      <div class='flex justify-between items-center'>
+        <div class='flex gap-4 justify-start'>
+          <button id='btn-limpar'  class="bg-slate-100 text-slate-600 border border-slate-200 flex justify-center rounded-lg p-2 duration-300 hover:border-slate-600 hover:text-white focus:text-blue-200 focus:bg-blue-400 py-4 px-8">
+            <i class="fa-solid fa-broom"></i>
+          </button>
+          <button id='btn-copiar' class="bg-slate-100 text-slate-600 border border-slate-200 flex justify-center rounded-lg p-2 duration-300 hover:border-slate-600 hover:text-white focus:text-blue-200 focus:bg-blue-400 py-4 px-8">
+            <i class="fa-solid fa-copy"></i>
+          </button>
+        </div>
+        <p id='contador' class="text-center text-slate-200 text-xl font-bold col-span-6">0/300</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
