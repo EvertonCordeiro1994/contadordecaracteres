@@ -21,4 +21,4 @@ Este projeto foi desenvolvido para praticar habilidades em JavaScript, HTML e CS
 
 ## Imagem
 
-![Descrição da Imagem](caminho/para/sua-imagem.png)
+![Descrição da Imagem](./img_projeto.jpeg)
