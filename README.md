@@ -21,4 +21,4 @@ Este projeto foi desenvolvido para praticar habilidades em JavaScript, HTML e CS
 
 ## Imagem
 
-![Descrição da Imagem](./img_projeto.jpeg)
+![Descrição da Imagem](https://raw.githubusercontent.com/EvertonCordeiro1994/contadordecaracteres/main/foto_projeto.png)
